@@ -111,7 +111,7 @@ jobs:
         cp -rf $(find ./bin/packages/ -type f -name "*.ipk") ./artifact/package/
         cp -rf $(find ./bin/targets/ -type f -name "*.buildinfo" -o -name "*.manifest") ./artifact/buildinfo/
 
-    - name: 长传软件安装包
+    - name: 上传软件安装包
       uses: actions/upload-artifact@v3
       with:
         name: OpenWrt_package
