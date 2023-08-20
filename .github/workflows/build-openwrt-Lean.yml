@@ -13,13 +13,13 @@ on:
   workflow_dispatch:
 # release:
 #   types: published
- push:
+  push:
 #   branches:
 #     - master
 #   paths:
 #     - 'Lean'
-   schedule:
-     - cron: 0 */18 * * *
+    schedule:
+      - cron: 0 */18 * * *
 #   watch:
 #     types: started
     inputs:
