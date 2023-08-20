@@ -41,7 +41,7 @@ jobs:
     if: github.event.repository.owner.id == github.event.sender.id
 
     steps:
-    - name: Checkout
+    - name: 拉取分支
       uses: actions/checkout@main
 
     - name: 初始化环境
